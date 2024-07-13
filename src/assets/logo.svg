@@ -1,0 +1,27 @@
+<!-- assets/logo.svg -->
+<svg width="190" height="80" viewBox="0 0 150 50" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .text {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 24px;
+      font-weight: bold;
+      fill: #007bff;
+    }
+    .circle {
+      fill: #007bff;
+    }
+    .wifi-icon {
+      fill: #ffffff;
+    }
+  </style>
+  <!-- Círculo com tamanho e posição ajustados -->
+  <circle class="circle" cx="40" cy="35" r="35" />
+
+  <!-- Icone de Conexão de Internet ajustado e centralizado -->
+  <g transform="translate(30, 30) scale(0.6)" class="wifi-icon">
+    <path d="M15 20c-3.93 0-7.5 1.47-10.36 3.89-.57.5-.64 1.36-.13 1.93.5.57 1.36.64 1.93.13C8.48 23.7 11.63 22 15 22s6.52 1.7 8.56 4.95c.57.51 1.43.44 1.93-.13.51-.57.44-1.43-.13-1.93C22.5 21.47 18.93 20 15 20zm0 6c-1.93 0-3.7.79-5.03 2.06-.38.37-.41.97-.03 1.35.37.38.97.41 1.35.03C12.17 28.34 13.5 28 15 28s2.83.34 3.71 1.44c.38.37.98.34 1.35-.03.37-.38.34-.98-.03-1.35C18.7 26.79 16.93 26 15 26zm0 4c-.93 0-1.76.36-2.41.95-.33.3-.35.83-.04 1.15.3.33.83.35 1.15.04C13.97 32.55 14.48 32 15 32s1.03.55 1.3 1.14c.32.31.85.29 1.15-.04.31-.32.29-.85-.04-1.15C16.76 30.36 15.93 30 15 30z"/>
+  </g>
+
+  <!-- Texto ajustado -->
+  <text x="80" y="35" class="text">RRWeb</text>
+</svg>

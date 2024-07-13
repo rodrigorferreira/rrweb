@@ -1,0 +1,49 @@
+<!-- app.component.html -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container"> <!-- Usando contêiner para layout flexível -->
+    <!-- Nome da Empresa -->
+    <span class="navbar-text mr-auto font-weight-bold">RRWeb</span>
+    <!-- Botão de Toggle para Mobile -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Links do Navbar centralizados -->
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav"> <!-- Alinha o conteúdo ao centro -->
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/">
+            <i class="fas fa-home nav-icon"></i>
+            <span class="nav-text">Home</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/sobre">
+            <i class="fas fa-info-circle nav-icon"></i>
+            <span class="nav-text">Sobre</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/servicos">
+            <i class="fas fa-concierge-bell nav-icon"></i>
+            <span class="nav-text">Serviços</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/contato">
+            <i class="fas fa-envelope nav-icon"></i>
+            <span class="nav-text">Contato</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>
+
+<footer class="bg-light text-center text-lg-start">
+  <div class="text-center p-3">
+    © 2024 Copyright: RRWeb
+  </div>
+</footer>

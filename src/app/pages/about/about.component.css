@@ -1,0 +1,18 @@
+/* about.component.css */
+.about-container {
+  padding-top: 20px;
+}
+
+.card-header h2 {
+  display: flex;
+  align-items: center;
+}
+
+.card-header i {
+  margin-right: 10px;
+}
+
+.card-footer {
+  text-align: right;
+}
+

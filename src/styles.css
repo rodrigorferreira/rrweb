@@ -1,0 +1,145 @@
+/* web\src\styles.css */
+
+/* html, Body */
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+
+/* Navbar */
+.navbar-brand {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center; /* Centraliza o menu */
+  width: 100%; /* Garante que o menu ocupe toda a largura disponível */
+}
+
+.navbar-nav .nav-item .nav-link {
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem; /* Aumenta o tamanho do texto */
+  color: #007bff; /* Cor primária */
+  margin: 0 1rem; /* Espaçamento entre itens */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #0056b3; /* Cor ao passar o mouse */
+}
+
+.navbar-nav .nav-item .nav-link i {
+  font-size: 2rem; /* Aumenta o tamanho dos ícones */
+  margin-right: 0.5rem; /* Espaçamento entre ícone e texto */
+  color: #007bff; /* Cor dos ícones */
+}
+
+.navbar-nav .nav-item .nav-link i:hover {
+  color: #0056b3; /* Cor dos ícones ao passar o mouse */
+}
+
+.navbar-text {
+  font-size: 1.5rem; /* Tamanho do texto do nome da empresa */
+  font-weight: bold;
+  color: #007bff; /* Cor do nome da empresa */
+}
+
+/* Jumbotron */
+.jumbotron {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+/* Cards */
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-hover:hover {
+  transform: translateY(-10px);
+}
+
+.card-title {
+  font-weight: 700;
+  color: #004085; /* Cor mais escura para maior contraste */
+  margin-bottom: 20px;
+}
+
+.card-text {
+  font-size: 1.05rem;
+  color: #343a40; /* Cor mais escura para melhor leitura */
+}
+
+.icon-primary {
+  color: #0056b3; /* Cor primária personalizada */
+}
+
+.shadow {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsividade para os cards */
+@media (max-width: 768px) {
+  .card-title {
+    font-size: 1.2rem;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+  }
+
+  .card i {
+    font-size: 2.5rem;
+  }
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+  background-color: #f8f9fa;
+  padding: 1rem 0;
+}
+
+footer .p-3 {
+  margin: 0;
+}
+
+/* Adicione isso no seu arquivo CSS */
+.whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.whatsapp-float i {
+  font-size: 40px;
+}
+
