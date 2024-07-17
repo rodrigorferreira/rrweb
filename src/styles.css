@@ -143,3 +143,41 @@ footer .p-3 {
   font-size: 40px;
 }
 
+.banner {
+  background: linear-gradient(to right, #0066cc, #3399ff);
+  color: white;
+  padding: 40px; /* Aumente ou diminua o padding conforme necessário */
+  text-align: center;
+  position: relative;
+  border-radius: 0px;
+  width: 70%; /* Defina a largura conforme necessário */
+  height: auto; /* Defina a altura conforme necessário */
+  max-width: 1200px; /* Máximo de largura para limitar o tamanho */
+  margin: 0 auto; /* Centraliza o banner horizontalmente */
+}
+
+@media (max-width: 768px) {
+  .banner {
+    padding: 20px; /* Ajuste o padding para telas menores */
+  }
+}
+
+.banner h1 {
+  font-size: 2em;
+  margin: 0;
+}
+.banner p {
+  font-size: 1.2em;
+  margin: 10px 0 0;
+}
+.banner .btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ffcc00;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
