@@ -32,7 +32,9 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/static"
+
             ],
             "styles": [
               "src/styles.css",
@@ -62,7 +64,7 @@
               ],
               "outputHashing": "all",
               "fileReplacements": [
-              
+
               ],
               "optimization": true,
               "outputHashing": "all",

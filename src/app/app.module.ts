@@ -15,6 +15,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { ServicesComponent } from './pages/services/services.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { FormsModule } from '@angular/forms';
+import { ProjetosComponent } from './pages/projetos/projetos.component';
 
 
 
@@ -24,7 +25,8 @@ import { FormsModule } from '@angular/forms';
     HomeComponent,
     AboutComponent,
     ServicesComponent,
-    ContactComponent
+    ContactComponent,
+    ProjetosComponent
   ],
   imports: [
     BrowserModule,

@@ -57,6 +57,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
 /* Cards */
 .card {
   border: none;
+  border-radius: 0.5rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
 }
@@ -110,14 +111,24 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
   background-color: #0056b3;
 }
 
-/* Footer */
+
+/* Ajustes para o footer */
 footer {
-  background-color: #f8f9fa;
-  padding: 1rem 0;
+  margin-top: 2rem; /* Ajuste o valor conforme necessário */
 }
 
-footer .p-3 {
-  margin: 0;
+
+/* Ajuste para diferentes tamanhos de tela */
+@media (max-width: 768px) {
+  footer {
+    padding: 0.75rem 0; /* Reduzir o padding em telas menores, se necessário */
+  }
+}
+
+@media (max-width: 576px) {
+  footer {
+    padding: 0.5rem 0; /* Reduzir ainda mais o padding em smartphones, se necessário */
+  }
 }
 
 /* Adicione isso no seu arquivo CSS */

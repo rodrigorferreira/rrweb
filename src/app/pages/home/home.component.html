@@ -1,14 +1,40 @@
 <div class="container">
 
   <div class="jumbotron text-center mt-4 bg-light p-4 rounded">
-
     <h1 class="display-4" style="color: #007bff; font-weight: bold; font-size: 2rem; margin-bottom: 1rem;">Bem-vindo a RR Creative Web!</h1>
-
     <p class="lead" style="font-size: 1.5rem; font-weight: bold;">Oferecemos os melhores serviços de criação de sites, sistemas web e hospedagem de sites.</p>
-
   </div>
 
-  <div class="row">
+  <!-- Início do Carrossel -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="../../../assets/hospedagem.jpg" alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="../../../assets/integracao.jpg" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="../../../assets/responsividade.jpg" alt="Third slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <!-- Fim do Carrossel -->
+
+  <div class="row mt-4">
     <!-- Banner 1 - Crie um Site para Seu Negócio -->
     <div class="col-md-6 mb-4">
       <div class="banner">
@@ -191,62 +217,10 @@
   </div>
 </div>
 
-<div class="container">
-  <!-- Seção de Portfólio -->
-  <div class="text-center mt-5">
-    <h2 class="display-4" style="color: #007bff; font-weight: bold;">Nossos Trabalhos</h2>
-    <p class="lead">Confira alguns dos nossos projetos.</p>
-  </div>
+  <!-- Projetos -->
 
-  <!-- Cards de Portfólio -->
-  <div class="row text-center mt-4">
+  <app-projetos></app-projetos>
 
-    <!-- Card de Projeto 1 -->
-    <div class="col-lg-4 col-md-6 mb-4">
-      <div class="card card-hover shadow h-100">
-        <img class="card-img-top" src="../../../assets/esportemedicina.png" alt="Projeto1">
-        <div class="card-body">
-          <h5 class="card-title font-weight-bold text-primary">EsporteMedicina</h5>
-          <p class="card-text">“Este site é uma plataforma dedicada ao Dr. Selenio, um renomado médico do esporte e nutrólogo. Ele oferece uma variedade de recursos e informações relacionadas à medicina do exercício e nutrologia.”</p>
-          <a href="https://esportemedicina.com/" target="_blank" class="btn btn-primary">Link do Projeto</a>
-        </div>
-      </div>
-    </div>
-    <!-- Card de Projeto 2 -->
-    <div class="col-lg-4 col-md-6 mb-4">
-      <div class="card card-hover shadow h-100">
-        <!-- Adiciona a classe 'custom-img' à tag img -->
-        <img class="card-img-top" src="../../../assets/nutri-logo.png" alt="SysCarWeb" width="100" height="200">
-        <div class="card-body">
-          <h5 class="card-title font-weight-bold text-primary">Nutriknofel</h5>
-          <p class="card-text"> "Site destinado a nutricionista Thassiana Knofel, com informações de saúde e informações nutricionais para atender suas necessidades nutricionais. Ainda em desenvolvimento". Terá um blog com informações nutricionais, dietas e dica". </p>
-          <a href="https://nutriknofel.netlify.app/" target="_blank" class="btn btn-primary">Link do Projeto</a>
-        </div>
-      </div>
-    </div>
-    <!-- Card de Projeto 3 -->
-    <div class="col-lg-4 col-md-6 mb-4">
-      <div class="card card-hover shadow h-100">
-        <!-- Adiciona a classe 'custom-img' à tag img -->
-        <img class="card-img-top" src="../../../assets/logocar.png" alt="SysCarWeb" width="100" height="170">
-        <div class="card-body">
-          <h5 class="card-title font-weight-bold text-primary">SysCarWeb</h5>
-          <p class="card-text"> "É um sistema de controle e manutenção veicular desenvolvido por, Rodrigo Rodrigues Ferreira, ele oferece funcionalidades para gerenciar as manutenções de seu veículo. Ainda em desenvolvimento". </p>
-          <a href="https://nutriknofel.netlify.app/" target="_blank" class="btn btn-primary">Link do Projeto</a>
-        </div>
-      </div>
-    </div>
-
-
-    <!-- ... outros cards de projetos ... -->
-  </div>
-</div>
-
-<div class="text-center mt-5">
-  <a href="mailto:rodrigo@rrweb.com.br" class="btn btn-primary">
-    <i class="fas fa-envelope"></i> Contate-nos
-  </a>
-</div>
 
 <!-- Adicione isso no final do seu arquivo home.component.html -->
 <a href="https://wa.me/5532998473251" class="whatsapp-float" target="_blank">
